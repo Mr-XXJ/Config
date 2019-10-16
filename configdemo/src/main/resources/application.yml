@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Mr-XXJ/myGUI.git   #github仓库地址
+          username: 909794123@qq.com     # 用户名
+          password: ****      # 密码
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8084/eureka/
+
+server:
+  port: 8080

@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8080/
+      name: xxj
+
+rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
